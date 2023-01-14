@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="scientific">
+      <div>
+        <input type="text" class="input" disabled id="input" />
+      </div>
+      <div>
+        <input type="text" class="equal-display-box" disabled value="=" />
+        <input type="text" class="result" placeholder="0" disabled />
+      </div>
+      <!-- number and typing rows and column -->
+      <div class="numbers">
+        <!-- rows for log C in π -->
+        <table class="table-one">
+          <tr>
+            <td>
+              <button class="button" value="C">C</button>
+            </td>
+            <td>
+              <button class="button" value="log">log</button>
+            </td>
+            <td>
+              <button class="button" value="ln">ln</button>
+            </td>
+            <td>
+              <button class="button" value="*3.14">π</button>
+            </td>
+          </tr>
+          <!-- row for % () √ ÷ -->
+          <tr>
+            <td>
+              <button class="button" value="radic">√</button>
+            </td>
+            <td>
+              <button class="button" value=")">()</button>
+            </td>
+            <td>
+              <button class="button" value="%">%</button>
+            </td>
+            <td>
+              <button class="button" value="/">÷</button>
+            </td>
+          </tr>
+        </table>
+        <!-- row for the ^ 7 8 9 *-->
+        <div class="table">
+          <table class="table-two">
+            <tr>
+              <td>
+                <button class="button-on" value="**">^</button>
+              </td>
+              <td>
+                <button class="button-ons-h" value="7">7</button>
+              </td>
+              <td>
+                <button class="button-ons-s" value="8">8</button>
+              </td>
+              <td>
+                <button class="button-ons" value="9">9</button>
+              </td>
+              <td>
+                <button class="button-on" value="*">x</button>
+              </td>
+            </tr>
+          </table>
+          <!-- row for sin 4 5 6 1 2 3 - -->
+          <table class="table-three">
+            <tr>
+              <td>
+                <button class="button-o" value="sin">sin</button>
+              </td>
+              <td>
+                <table class="table-nums">
+                  <tr>
+                    <td>
+                      <button class="button-three-h" value="4">4</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button class="button-three-h" value="1">1</button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table class="table-nums">
+                  <tr>
+                    <td>
+                      <button class="button-three-s" class="one" value="5">
+                        5
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button class="button-three-s" value="2">2</button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table class="table-nums">
+                  <tr>
+                    <td>
+                      <button class="button-three" value="6">6</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button class="button-three" value="3">3</button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <button class="button-o" value="-">-</button>
+              </td>
+            </tr>
+          </table>
+          <!-- cos +/- 0 . row -->
+          <table class="table-four">
+            <tr>
+              <td>
+                <button class="button-on" value="cos">cos</button>
+              </td>
+              <td><button class="button-ons-h" onclick="">+/-</button></td>
+              <td>
+                <button class="button-ons-s" value="0">0</button>
+              </td>
+              <td>
+                <button class="button-ons" value=".">.</button>
+              </td>
+              <td>
+                <button class="button-on" value="+">+</button>
+              </td>
+            </tr>
+          </table>
+          <table class="table-five">
+            <tr>
+              <td>
+                <button class="buttond" value="tan">tan</button>
+              </td>
+              <td>
+                <button class="button" value="*10**">e</button>
+              </td>
+              <td>
+                <button class="button" value="!">!</button>
+              </td>
+              <td>
+                <button class="buttons" value="=">=</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
