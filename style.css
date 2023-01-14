@@ -1,0 +1,173 @@
+.scientific{
+  height: 100vh;
+  width: 400px;
+  background-color: rgb(19, 21, 21);
+  border-radius: 5%;
+  margin-left: 27px;
+}
+.result{
+height: 110px;
+  width: 48vh;
+  background: rgba(0, 0, 0, 0);
+    border: 0px;
+    color: white;
+    font-size: 2rem;
+    text-align: end;
+    margin-right: 1px;
+}
+.equal-display-box{
+height: 110px;
+  width: 40px;
+  margin-left: 23px;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  color: aqua;
+  font-size: 2rem;
+}
+.input {
+  height: 80px;
+  width: 370px;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  color: white;
+  text-align: end;
+  font-size: 1.5rem;
+}
+.numbers{
+  margin-top: -22px;
+  border-radius: 5%;
+  background:rgba(20, 22, 33, 0.603);
+  border: 1px solid;
+  align-items: center;
+}
+.table{
+  margin-top: -22px;
+}
+.table-one{
+  width: 50vh;
+  height: 100px;
+  /* border: 2px solid black; */
+}
+.table-two{
+  width: 50vh;
+  height: 100px;
+  margin-top: -10px;
+  /* border: 2px solid black; */
+}
+.table-three{
+  /* width: 50vh;
+  height: 100px; */
+  margin-top: -23px;
+  /* border: 2px solid black; */
+}
+.table-four{
+  margin-top: -5px;
+}
+.button-five{
+  height: 30px;
+    width: 60px;
+    border: 0px;
+    margin-bottom: -40px;
+}
+button:hover{
+  border-radius: 30%;
+  background:black
+}
+button{
+  background: rgba(0, 0, 0, 0); 
+  color:aqua ;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+.button{
+  height: 75px;
+  width: 95px;
+  border: 0px;
+}
+.buttond{
+  height: 75px;
+  width: 110px;
+  border: 0px;
+}
+.buttons:hover{
+background: rgb(31, 29, 29); 
+border-radius: 45%;
+}
+.buttons{
+  height: 75px;
+  width: 80px;
+  border: 0px;
+  border-radius: 50%;
+  background: orangered;
+}
+.button-o{
+  width: 75px;
+  height: 100px;
+  border: 0px;
+  margin-bottom: 6px;
+  margin-right: -3px;
+}
+.button-one{
+  height: 70px;
+  width: 65px;
+  border: 0px;
+}
+.button-on{
+  height: 47px;
+  width: 75px;
+  border: 0px;
+}
+/* styling for 6,3 buttons */
+.button-three{
+  height: 47px;
+  width: 80px;
+  border: 0px;
+  margin-bottom: 6px;
+  margin-right: -5px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  background: rgb(31, 29, 29);
+}
+.button-three-h{
+  height: 47px;
+  width: 80px;
+  border: 0px;
+  margin-bottom: 6px;
+  margin-right: -5px;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+  background: rgb(31, 29, 29);
+}
+.button-three-s{
+  height: 47px;
+  width: 80px;
+  border: 0px;
+  margin-bottom: 6px;
+  margin-right: -10px;
+  margin-left: -10px;
+  background: rgb(31, 29, 29);
+}
+.button-ons {
+  height: 47px;
+  width: 80px;
+  border: 0px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  background: rgb(31, 29, 29);
+}
+.button-ons-h {
+  height: 47px;
+  width: 80px;
+  border: 0px;
+  background: rgb(31, 29, 29);
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+}
+.button-ons-s {
+  height: 47px;
+  width: 75px;
+  border: 0px;
+  margin-right: -4px;
+  margin-left: -3.8px;
+  background: rgb(31, 29, 29);
+}
